@@ -12,7 +12,7 @@ def press_button():
     while True:
         generated_character = generate_character()
         if generated_character == 'space':
-            seep(10)
+            sleep(10)
             keyDown(generated_character)
             sleep(0.1)
             keyUp(generated_character)
