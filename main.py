@@ -1,4 +1,4 @@
-from pyautogui import press, hold, keyDown, keyUp
+from pyautogui import hold, keyDown, keyUp
 from time import sleep
 from random import randint
 
